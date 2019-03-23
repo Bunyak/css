@@ -1,0 +1,51 @@
+a {
+    background-color: white;
+    color: #000000;
+    font-size: 14px;
+    border: 10px solid #FFFFFF;
+    font-style:normal;
+}
+
+#img-header {
+	background-position: top;
+    background-image:url(img/header-pizza.jpg);
+	height: 750px;
+    width: 1895px;
+}
+
+.title {
+    text-align: center;
+    color: #464646;
+}
+
+
+h2 {
+    font-weight: 900;
+    text-align: center;
+}
+
+h3 {
+    font-style: italic;
+    color: #797979;
+    text-align: center;
+}
+
+table {
+    width: 255px;
+    height: 500px;
+    border: 1px;
+}
+
+img {
+    height: 200px; 
+    width: 255px;
+}
+
+.price {
+    color: red;
+}
+
+label {
+    text-align: center;
+}
+
