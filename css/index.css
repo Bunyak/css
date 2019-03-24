@@ -6,10 +6,22 @@ a {
     font-style:normal;
 }
 
+.banner {
+	background-position: center;
+    background-image: url(img/header-pizza.jpg);
+    height: 750px;
+    width: 1895px;
+    background-size: cover;
+}
+
+.mane-name {
+    font-family: Architects Daughter;
+    font-size: 60px;
+    color: white;
+}
+
 #img-header {
-	background-position: top;
-    background-image:url(img/header-pizza.jpg);
-	height: 750px;
+    height: 750px;
     width: 1895px;
 }
 
@@ -19,22 +31,19 @@ a {
 }
 
 
-h2 {
+.name {
     font-weight: 900;
-    text-align: center;
+    font-size: 24px;
+    font-family: helvetica;
 }
 
-h3 {
-    font-style: italic;
+.description {
     color: #797979;
-    text-align: center;
+    font-size: 18px;
+    font-family: helvetica;
+    font-style: italic;
 }
 
-table {
-    width: 255px;
-    height: 500px;
-    border: 1px;
-}
 
 img {
     height: 200px; 
@@ -43,9 +52,53 @@ img {
 
 .price {
     color: red;
+    font-weight: 900;
+    font-size: 20px;
+    font-family: helvetica;
 }
 
 label {
     text-align: center;
+
 }
 
+#response {
+    height: 160px;
+    width: 417px;
+    
+}
+
+
+.card {
+    display: grid;
+    text-align: center;
+    font-family: arial;
+}
+
+div {
+    display: block;
+}
+
+.card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: black;
+    background-color: #629B46;
+    text-align: center;
+    cursor: pointer;
+    width: 135px;
+    font-size: 20px;
+    font-family: helvetica;
+    font-weight: 700;
+    height: 45px;
+}
+
+.footer {
+    text-align: center;
+    background-color: #D3E2FC;
+    height: 85px;
+    font-size: 14px;
+    font-family: helvetica;
+    font-weight: 700;
+}
