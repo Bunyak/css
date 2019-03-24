@@ -1,22 +1,23 @@
 a {
     background-color: white;
     color: #000000;
-    font-size: 14px;
+    font-size: 24px;
     border: 10px solid #FFFFFF;
     font-style:normal;
 }
 
 .banner {
-	background-position: center;
+    background-position: top;
     background-image: url(img/header-pizza.jpg);
     height: 750px;
     width: 1895px;
     background-size: cover;
+
 }
 
-.mane-name {
+.main-name {
     font-family: Architects Daughter;
-    font-size: 60px;
+    font-size: 40px;
     color: white;
 }
 
@@ -82,7 +83,7 @@ div {
 .card button {
     border: none;
     outline: 0;
-    padding: 12px;
+
     color: black;
     background-color: #629B46;
     text-align: center;
@@ -102,3 +103,31 @@ div {
     font-family: helvetica;
     font-weight: 700;
 }
+
+.icon {
+    width: 60px;
+    height: 60px;
+}
+
+.links {
+    color: blue;
+    font-size: 14px;
+    font-family: helvetica;
+    text-align: center;
+    
+}
+
+form {
+    display: block;
+}
+
+.button-message {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
