@@ -1,123 +1,170 @@
-a {
-    background-color: white;
-    color: #000000;
-    font-size: 24px;
-    border: 10px solid #FFFFFF;
-    font-style:normal;
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+
+.logo {
+    font-family: 'Shadows Into Light', sans-serif;
+    font-size: 3rem;
+    text-align: center;
 }
 
-.banner {
-    background-position: top;
-    background-image: url(img/header-pizza.jpg);
-    height: 750px;
-    width: 1895px;
-    background-size: cover;
 
+:root {
+    --main-color: black;
 }
 
-.main-name {
-    font-family: Architects Daughter;
-    font-size: 40px;
-    color: white;
-}
-
-#img-header {
-    height: 750px;
-    width: 1895px;
+body{
+    max-width: 1000px;
+    margin: auto;
 }
 
 .title {
     text-align: center;
     color: #464646;
+    font-size: 36px;
+}
+
+header .logo {
+    font-family: 'Shadows Into Light', sans-serif;
+    font-size: 3rem;
+    text-align: left;
+    margin: 20px 10px;
+}
+
+header .menu {
+    padding: 0;
+    font-family: 'Shadows Into Light', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+header .menu li{
+    display: inline;
+    list-style-type: none;
+}
+
+header .menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--main-color);
 }
 
 
-.name {
-    font-weight: 900;
+header .menu li a:hover {
+    text-decoration: underline;
+}
+
+@media (min-width: 550px) {
+    header nav {
+        display: flex;
+        align-items: center;
+    }
+    
+    header nav .menu {
+        flex: 1;
+    }
+}
+
+header .banner {
+    background-image: url(../img/header-pizza.jpg);
+    min-height: 800px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Shadows Into Light', sans-serif;
+    flex-direction: column;
+    color: white;
+}
+
+header .banner h1 {
+    color: var(--secondary-color);
+    font-size: 3rem;
+}
+
+header .banner .button-container {
+    margin-top: 20px;
+}
+
+.product-card {
+    border: 1px solid #464646;
+}
+
+.product-card h2 {
     font-size: 24px;
-    font-family: helvetica;
+    text-align: center;
 }
 
-.description {
-    color: #797979;
-    font-size: 18px;
-    font-family: helvetica;
+.product-card h3 {
     font-style: italic;
+    text-align: center;
+    padding: 0 5px;
+    color: grey;
+    font-size: 18px;
 }
 
-
-img {
-    height: 200px; 
-    width: 255px;
-}
-
-.price {
+.product-card p {
+    padding: 0 5px;
     color: red;
     font-weight: 900;
-    font-size: 20px;
-    font-family: helvetica;
+    font-size: 25px;
 }
 
-label {
-    text-align: center;
-
+.product-card img {
+    display: block;
+    width: 100%;
 }
 
-#response {
-    height: 160px;
-    width: 417px;
-    
+.product-card .button-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
 }
 
-
-.card {
-    text-align: center;
-    font-family: helvetica;
+.product-card .button-container .price {
+    padding: 8px 32px;
+    display: flex;
 }
 
-.card button {
+.button {
+    background-color: #4CAF50; /* Green */
     border: none;
-    outline: 0;
-
     color: black;
-    background-color: #629B46;
+    padding: 16px 32px;
     text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
     cursor: pointer;
-    width: 135px;
-    font-size: 20px;
-    font-family: helvetica;
+    background-color: green; 
+    color: white; 
+    font-family: 'Iceberg', sans-serif;
     font-weight: 700;
-    height: 45px;
 }
 
-.footer {
-    text-align: center;
-    background-color: #D3E2FC;
-    height: 85px;
-    font-size: 14px;
-    font-family: helvetica;
-    font-weight: 700;
+.button:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+@media (min-width: 480px) {
+    .product-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px;
+    }
+}
+
+@media (min-width: 660px) {
+    .product-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
 }
 
 .icon {
-    width: 60px;
-    height: 60px;
-}
-
-.links {
-    color: blue;
-    font-size: 14px;
-    font-family: helvetica;
-    text-align: center;
-}
-
-.button-message {
-    background-color: green;
-    border: none;
-    color: white;
-    padding: 15px 25px;
-    text-align: center;
-    font-size: 16px;
-    cursor: pointer;
+    max-width: 60px;
 }
 

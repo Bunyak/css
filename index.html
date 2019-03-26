@@ -12,103 +12,95 @@
 <body>
     <header>
         <nav>
-            <a href="#home">ГОЛОВНА</a>
-            <a href="#delivery">ДОСТАВКА</a>
-            <a href="#we">МИ</a>
-            <a href="#response">ВІДГУК</a>
+            <ul class="menu">
+                <li><a href="#home">ГОЛОВНА</a></li>
+                <li><a href="#delivery">ДОСТАВКА</a></li>
+                <li><a href="#about-us">ПРО НАС</a></li>
+                <li><a href="#response">ВІДГУК</a></li>
+                <li><a href="#basket">КОШИК</a></li>
+            </ul>
+            <p class="logo">PizzaLviv</p>
         </nav>
         <div class="banner">
-            <div class="main-name">
-                <h1>PizzaLviv</h1>
+            <h1>PizzaLviv</h1>
+            <div class="button-container">
+              <button class="button">Замовити</button>
             </div>
         </div>
     </header>
-    <div class="card">
-        <div class="title">
-            <h1 id="delivery">Доставка піци у Львові</h1>
+    <section class="products">
+        <h2 id="delivery" class="title">Доставка піци у Львові</h2>
+        <div class="product-list">
+            <article class="product-card">    
+                <img src="img/pizza-apetutna.jpg" alt="Піца апетитна">
+                <h2>Піца Апетитна</h2>
+                <h3>Неополітанський соус, Сир моцарела, Базилік, Перець болгарський, Бекон, Салямі</h3>
+                <div class="button-container">
+                        <p class="price">155.00 грн</p>
+                        <button class="button button-buy">
+                            + В кошик
+                        </button>
+                </div>
+            </article>    
+            <article class="product-card">    
+                <img src="img/pizza-nizhna.jpg" alt="Піца ніжна">
+                <h2>Піца Ніжна</h2>
+                <h3> Сир моцарелла, Помідор, Шинка, Печериці свіжі, Вершковий соус, Сир пармезан</h3>
+                <div class="button-container">
+                        <p class="price">57.00 грн</p>
+                        <button class="button button-buy">
+                            + В кошик
+                        </button>
+                </div>
+            </article>    
+            <article class="product-card">    
+                <img src="img/pizza-sur.jpg" alt="Піца 4 сири">
+                <h2>Піца 4 сири</h2>
+                <h3>Сир моцарелла, Вершковий соус, Сир пармезан, Сир дор блю, Сир мармуровий </h3>
+                <div class="button-container">
+                        <p class="price">150.00 грн</p>
+                        <button class="button button-buy">
+                            + В кошик
+                        </button>
+                </div>
+            </article>    
+            <article class="product-card">    
+                <img src="img/pizza-havayska.jpg" alt="Піца гавайська">
+                <h2>Піца Гавайська</h2>
+                <h3> Неополітанський соус, Сир моцарелла, Куряче філе, Шинка, Ананаси консервовані, Кукурудза консервована</h3>
+                <div class="button-container">
+                        <p class="price">140.00 грн</p>
+                        <button class="button button-buy">
+                            + В кошик
+                        </button>
+                </div>
+            </article>    
+            <article class="product-card">    
+                <img src="img/pizza-student.jpg" alt="Піца студентська">
+                <h2>Піца Студентська</h2>
+                <h3> Неополітанський соус, Сир моцарелла, Шинка, Печериці свіжі</h3>
+                <div class="button-container">
+                        <p class="price">115.00 грн</p>
+                        <button class="button button-buy">
+                            + В кошик
+                        </button>
+                </div>
+            </article>    
+            <article class="product-card">    
+                <img src="img/pizza-krevetku.jpg" alt="Піца з креветками">
+                <h2>Піца з креветками</h2>
+                <h3>Сир моцарелла, Вершковий соус, Помідори чері, Коктельна креветка, Рукола</h3>
+                <div class="button-container">
+                        <p class="price">170.00 грн</p>
+                        <button class="button button-buy">
+                            + В кошик
+                        </button>
+                </div>
+            </article>
         </div>
-        <div>
-            <img class="left-product" src=" img/pizza-apetutna.jpg" alt=" pizza-apetutna">
-        </div>
-        <div class="name">
-            <h2>Піца Апетитна</h2>
-        </div>
-        <div class="description">
-            <h3>Неополітанський соус, Сир моцарела, Базилік, Перець болгарський, Бекон, Салямі</h3>
-        </div>
-        <p class="price">155.00 грн</p>
-        <p>
-            <button>+ В кошик</button>
-        </p>
-        <div>
-            <img src=" img/pizza-nizna.jpg" alt=" pizza-nizna">
-        </div>
-        <div class="name">
-            <h2>Піца Ніжна</h2>
-        </div>
-        <div class="description">
-            <h3> Сир моцарелла, Помідор, Шинка, Печериці свіжі, Вершковий соус, Сир пармезан</h3>
-        </div>
-        <p class="price">57.00 грн</p>
-        <p>
-            <button>+ В кошик</button>
-        </p>
-        <div>
-            <img src=" img/pizza-sur.jpg" alt=" pizza-sur">
-        </div>
-        <div class="name">
-            <h2>Піца 4 сири</h2>
-        </div>
-        <div class="description">
-            <h3>Сир моцарелла, Вершковий соус, Сир пармезан, Сир дор блю, Сир мармуровий </h3>
-        </div>
-        <p class="price">150.00 грн</p>
-        <p>
-            <button>+ В кошик</button>
-        </p>
-        <div>
-            <img src=" img/pizza-havayska.jpg" alt=" pizza-havayska">
-        </div>
-        <div class="name">
-            <h2>Піца Гавайська</h2>
-        </div>
-        <div class="description">
-            <h3> Неополітанський соус, Сир моцарелла, Куряче філе, Шинка, Ананаси консервовані, Кукурудза консервована</h3>
-        </div>
-        <p class="price">140.00 грн</p>
-        <p>
-            <button>+ В кошик</button>
-        </p>
-        <div>
-            <img src=" img/pizza-student.jpg" alt=" pizza-studentska">
-        </div>
-        <div class="name">
-            <h2>Піца Студентська</h2>
-        </div>
-        <div class="description">
-            <h3> Неополітанський соус, Сир моцарелла, Шинка, Печериці свіжі</h3>
-        </div>
-        <p class="price">115.00 грн</p>
-        <p>
-            <button>+ В кошик</button>
-        </p>
-        <div>
-            <img src=" img/pizza-krevetku.jpg" alt=" pizza-z-krevetkamu">
-        </div>
-        <div class="name">
-            <h2>Піца з креветками</h2>
-        </div>
-        <div class="description">
-            <h3>Сир моцарелла, Вершковий соус, Помідори чері, Коктельна креветка, Рукола</h3>
-        </div>
-        <p class="price">170.00 грн</p>
-        <p>
-            <button>+ В кошик</button>
-        </p>
-
-    </div>
+    </section>    
     <div>
-        <h1 class="title" id="we">Слідкуйте за нами</h1>
+        <h2 class="title" id="about-us">Слідкуйте за нами</h2>
         <img class="icon" src="img/icon-fb.jpg" alt="icon-facebook"><br>
         <a class="links" href="https://www.facebook.com/">https://www.facebook.com/</a><br>
         <img class="icon" src="img/icon-inst.jpg" alt="icon-instagram"><br>
@@ -118,10 +110,10 @@
 
     </div>
     <div>
-        <h1 class="title">Де ми знаходимось?</h1>
+        <h2 class="title">Де ми знаходимось?</h2>
     </div>
-    <div class="title">
-        <h1>Залиште свій відгук</h1>
+    <div>
+        <h2 class="title">Залиште свій відгук</h2>
     </div>
     <div>
         <form method="POST" action="https://formspree.io/19091997x@gmail.com">
