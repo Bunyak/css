@@ -24,6 +24,15 @@ header {
     background-position: center;
 }
 
+.product-card {
+    display: grid;
+    grid-template-areas:
+      "images"
+      "header"
+      "subheader"
+      "button-container";
+}
+
 .title {
     text-align: center;
     color: #464646;
@@ -190,3 +199,17 @@ header .banner .button-container {
     max-width: 60px;
 }
 
+.form {
+    text-align: center;
+    font-size: 18px;
+}
+
+.social-networks-map {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-networks-map li{
+    display: inline;
+    list-style-type: none;
+}
