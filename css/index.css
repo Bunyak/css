@@ -204,12 +204,3 @@ header .banner .button-container {
     font-size: 18px;
 }
 
-.social-networks-map {
-    display: flex;
-    justify-content: space-around;
-}
-
-.social-networks-map li{
-    display: inline;
-    list-style-type: none;
-}
