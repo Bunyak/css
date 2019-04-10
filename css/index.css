@@ -91,6 +91,16 @@ header .menu li a:hover {
         display: flex;
         align-items: center;
     }
+    
+    .follow-us-map .map {
+        display: flex;
+        align-items: center;
+    }
+    
+    form .send-form {
+        display: flex;
+        align-items: center;
+    }
 }
 
 header .banner {
@@ -236,7 +246,10 @@ header .button-container .button a {
     justify-self: center;
 }
 
-
+.follow-us-map .map {
+    display: block;
+    width: 100%;
+} 
 
 .follow-us-map .links .icon {
     max-width: 80px;
@@ -292,3 +305,4 @@ header .button-container .button a {
     font-size: 20px;
     display: flex;
 }
+
