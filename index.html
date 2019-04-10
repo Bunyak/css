@@ -25,14 +25,14 @@
         <div class="banner">
             <h1>Доставка у Львові</h1>
             <div class="button-container">
-                <button class="button"><a href="#delivery">ЗАМОВИТИ</a></button>
+                <button class="button">ЗАМОВИТИ</button>
             </div>
         </div>
     </header>
     <section class="products">
         <h2 id="delivery" class="title">Доставка піци у Львові</h2>
         <div class="product-list">
-            <article class="product-card">
+            <article id="1" class="product-card">
                 <img src="img/pizza-apetutna.jpg" alt="Піца апетитна">
                 <h2>Піца Апетитна</h2>
                 <h3>Неополітанський соус, Сир моцарела, Базилік, Перець болгарський, Бекон, Салямі</h3>
@@ -43,7 +43,7 @@
                     </button>
                 </div>
             </article>
-            <article class="product-card">
+            <article id="2" class="product-card">
                 <img src="img/pizza-z-lososem.jpg" alt="Піца з лососем">
                 <h2>Піца з Лососем</h2>
                 <h3>Неополітанський соус, Сир моцарелла, Помідори чері, Лосось, Лимон</h3>
@@ -54,7 +54,7 @@
                     </button>
                 </div>
             </article>
-            <article class="product-card">
+            <article id="3" class="product-card">
                 <img src="img/pizza-sur.jpg" alt="Піца 4 сири">
                 <h2>Піца 4 сири</h2>
                 <h3>Сир моцарелла, Вершковий соус, Сир пармезан, Сир дор блю, Сир мармуровий </h3>
@@ -65,7 +65,7 @@
                     </button>
                 </div>
             </article>
-            <article class="product-card">
+            <article id="4" class="product-card">
                 <img src="img/pizza-havayska.jpg" alt="Піца гавайська">
                 <h2>Піца Гавайська</h2>
                 <h3> Неополітанський соус, Сир моцарелла, Куряче філе, Шинка, Ананаси консервовані, Кукурудза консервована</h3>
@@ -76,7 +76,7 @@
                     </button>
                 </div>
             </article>
-            <article class="product-card">
+            <article id="5" class="product-card">
                 <img src="img/pizza-student.jpg" alt="Піца студентська">
                 <h2>Піца Студентська</h2>
                 <h3> Неополітанський соус, Сир моцарелла, Шинка, Печериці свіжі</h3>
@@ -87,7 +87,7 @@
                     </button>
                 </div>
             </article>
-            <article class="product-card">
+            <article id="6" class="product-card">
                 <img src="img/pizza-krevetku.jpg" alt="Піца з креветками">
                 <h2>Піца з креветками</h2>
                 <h3>Сир моцарелла, Вершковий соус, Помідори чері, Коктельна креветка, Рукола</h3>
@@ -115,7 +115,7 @@
             width="500" height="400" frameborder="0" style="border:0" allowfullscreen>
         </iframe>
     </div>
-    <div>
+    <div class = "form-title">
         <h2 class="title">Залиште свій відгук</h2>
         <form class="send-form" method="POST" action="https://formspree.io/19091997x@gmail.com">
             <input id="client-name" class="name" type="text" placeholder="Ім'я" name="client-name" required>
@@ -127,6 +127,7 @@
     <footer>
         <p class="footer">All rights reserved Bunyak Adnriy</p>
     </footer>
+    
     <script src="js/index.js"></script>
 </body>
 
