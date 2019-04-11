@@ -10,6 +10,7 @@
 
 :root {
     --main-color: black;
+    scroll-behavior: smooth; 
 }
 
 body {
