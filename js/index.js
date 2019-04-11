@@ -1,6 +1,11 @@
-function addToBasket () {
-  alert('Ваше замовлення додане до корзини');
-};
+let buttonArray = document.querySelectorAll('.button');
+
+buttonArray.forEach(function(button) {
+    button.addEventListener('click', function() {
+        alert('Ваше замовлення додане до корзини');
+    });
+});
+
 
 const linkFacebook = document.querySelector('.link-facebook');
 const linkInstagram = document.querySelector('.link-instagram');
